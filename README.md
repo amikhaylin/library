@@ -14,6 +14,7 @@
 - [Списки захвата в Swift: в чём разница между ссылками weak, strong и unowned?](https://habr.com/ru/post/444336/)
 - [Swift Best Practices and Tips by Toptal Developers](https://www.toptal.com/swift/tips-and-practices)
 - [Справочник iOS дизайна (HIG на русском)](http://miloskiy.com/ios-design-guide-hig-na-russkom/)
+- [What Every Junior iOS Developer Needs to Know](https://blog.teamtreehouse.com/every-junior-ios-developer-needs-know)
 
 
 ### Development workflow
