@@ -6,6 +6,7 @@
 
 - [iOS Development](#ios-development)
 - [Development workflow](#development-workflow)
+- [Job seeking](#job-seeking)
 
 
 ### iOS Development
@@ -23,6 +24,7 @@
 - [Удачная модель ветвления для Git](https://habr.com/ru/post/106912/) - перевод [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) - статьи про Git flow (на мой взгляд не самой удачной модели ветвления)
 - [GitHub Flow: рабочий процесс Гитхаба](https://habr.com/ru/post/189046/) - Еще одна статья про GitHub Flow
 
+### Job seeking
 
-
+- [How to Apply for an iOS Developer Job](https://www.raywenderlich.com/2618-how-to-apply-for-an-ios-developer-job)
 
