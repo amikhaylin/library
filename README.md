@@ -16,6 +16,7 @@
 - [Swift Best Practices and Tips by Toptal Developers](https://www.toptal.com/swift/tips-and-practices)
 - [Справочник iOS дизайна (HIG на русском)](http://miloskiy.com/ios-design-guide-hig-na-russkom/)
 - [What Every Junior iOS Developer Needs to Know](https://blog.teamtreehouse.com/every-junior-ios-developer-needs-know)
+- [Using Swift Codable With Property Lists](https://useyourloaf.com/blog/using-swift-codable-with-property-lists/)
 
 
 ### Development workflow
