@@ -7,6 +7,7 @@
 - [iOS Development](#ios-development)
 - [Development workflow](#development-workflow)
 - [Job seeking](#job-seeking)
+- [Learning paths](#learning-paths)
 
 
 ### iOS Development
@@ -29,3 +30,7 @@
 
 - [How to Apply for an iOS Developer Job](https://www.raywenderlich.com/2618-how-to-apply-for-an-ios-developer-job)
 
+### Learning paths
+
+- [So you think you can call yourself a "Senior iOS Developer"?](https://blog.undabot.com/so-you-think-you-can-call-yourself-a-senior-ios-developer-767fb9d6e423)
+- [A Path to Mastery for iOS Development](https://trello.com/b/dOV9dvBu/a-path-to-mastery-for-ios-development)
