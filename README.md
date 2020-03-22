@@ -30,6 +30,7 @@
 ### Job seeking
 
 - [How to Apply for an iOS Developer Job](https://www.raywenderlich.com/2618-how-to-apply-for-an-ios-developer-job)
+- [iOS Developer Resume Examples](https://www.raywenderlich.com/2617-ios-developer-resume-examples)
 
 ### Learning paths
 
