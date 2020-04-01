@@ -8,6 +8,7 @@
 - [Development workflow](#development-workflow)
 - [Job seeking](#job-seeking)
 - [Learning paths](#learning-paths)
+- [Style Guldes](#style-guides)
 
 
 ### iOS Development
@@ -36,3 +37,7 @@
 
 - [So you think you can call yourself a "Senior iOS Developer"?](https://blog.undabot.com/so-you-think-you-can-call-yourself-a-senior-ios-developer-767fb9d6e423)
 - [A Path to Mastery for iOS Development](https://trello.com/b/dOV9dvBu/a-path-to-mastery-for-ios-development)
+
+### Style Guides
+
+- [The Official raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
