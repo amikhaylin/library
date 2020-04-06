@@ -42,3 +42,4 @@
 
 - [The Official raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
 - [Swift Style Guide by Google](https://google.github.io/swift/)
+- [Metova's Swift Style Guide](https://github.com/metova/swift-style-guide)
