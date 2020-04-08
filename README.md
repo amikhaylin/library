@@ -20,6 +20,7 @@
 - [What Every Junior iOS Developer Needs to Know](https://blog.teamtreehouse.com/every-junior-ios-developer-needs-know)
 - [Using Swift Codable With Property Lists](https://useyourloaf.com/blog/using-swift-codable-with-property-lists/)
 - [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui/) by Apple
+- [Modern Networking in Swift 5 with URLSession, Combine and Codable](https://www.vadimbulavin.com/modern-networking-in-swift-5-with-urlsession-combine-framework-and-codable/)
 
 
 ### Development workflow
