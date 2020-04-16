@@ -23,6 +23,7 @@
 - [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui/) by Apple
 - [Modern Networking in Swift 5 with URLSession, Combine and Codable](https://www.vadimbulavin.com/modern-networking-in-swift-5-with-urlsession-combine-framework-and-codable/)
 - [Немного практики функционального программирования в Swift для начинающих](https://habr.com/ru/post/440722/)
+- [Списки захвата в Swift: в чём разница между ссылками weak, strong и unowned?](https://habr.com/ru/post/444336/)
 
 
 ### Development workflow
