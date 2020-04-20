@@ -24,6 +24,7 @@
 - [Modern Networking in Swift 5 with URLSession, Combine and Codable](https://www.vadimbulavin.com/modern-networking-in-swift-5-with-urlsession-combine-framework-and-codable/)
 - [Немного практики функционального программирования в Swift для начинающих](https://habr.com/ru/post/440722/)
 - [Списки захвата в Swift: в чём разница между ссылками weak, strong и unowned?](https://habr.com/ru/post/444336/)
+- [Find memory leaks in iOS apps with XCode Instruments](https://www.surekhatech.com/blog/find-memory-leaks-in-ios-apps-with-xcode-instruments)
 
 
 ### Development workflow
