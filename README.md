@@ -26,6 +26,7 @@
 - [Списки захвата в Swift: в чём разница между ссылками weak, strong и unowned?](https://habr.com/ru/post/444336/)
 - [Find memory leaks in iOS apps with XCode Instruments](https://www.surekhatech.com/blog/find-memory-leaks-in-ios-apps-with-xcode-instruments)
 - [//TODO: — Make your notes on Xcode stand out](https://medium.com/@cboynton/todo-make-your-notes-on-xcode-stand-out-5f5124ec064c)
+- [Паттерны проектирования, взгляд iOS разработчика. Часть 0. Синглтон-Одиночка](https://habr.com/ru/post/320728/)
 
 
 ### Development workflow
