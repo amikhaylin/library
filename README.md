@@ -44,6 +44,7 @@
 
 - [How to Apply for an iOS Developer Job](https://www.raywenderlich.com/2618-how-to-apply-for-an-ios-developer-job)
 - [iOS Developer Resume Examples](https://www.raywenderlich.com/2617-ios-developer-resume-examples)
+- [Собеседование Swift — вопросы и ответы](https://swiftlab.ru/2019/05/07/sobesedovanie-swift/)
 
 ### Learning paths
 
