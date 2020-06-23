@@ -28,6 +28,7 @@
 - [Паттерны проектирования, взгляд iOS разработчика. Часть 0. Синглтон-Одиночка](https://habr.com/ru/post/320728/)
 - [Паттерны проектирования, взгляд iOS разработчика. Часть 1. Стратегия](https://habr.com/ru/post/321182/)
 - [Адекватное MVC для начинающих и не только](https://habr.com/ru/post/500870/)
+- [Настройка локализаций в Xcode 8 и Swift 3](https://tproger.ru/articles/localizations-in-swift/) - годно и для Swift 5 Xcode 11
 
     #### Networking
 
