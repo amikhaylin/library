@@ -76,7 +76,7 @@ struct ProductIds {
             do {
                 let listData = try Data(contentsOf: url)
                 let myPlist = try PropertyListSerialization.propertyList(from: listData, options: [], format: nil)
-                guard let myDict = myPlist as? Dictionary<String, String>, let result = myDict[key]  else {
+                guard let myDict = myPlist as? [String: String], let result = myDict[key]  else {
                     return nil
                 }
                 return result
