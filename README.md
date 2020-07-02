@@ -10,6 +10,7 @@
 - [Learning paths](#learning-paths)
 - [Style Guldes](#style-guides)
 - [Misc](#misc)
+- [Snippets](#snippets)
 
 
 ### iOS Development
@@ -64,3 +65,26 @@
 
 - [Полная экипировка iOS-разработчика: сервисы, инструменты, фреймворки, веб-сайты](https://tproger.ru/digest/ios-development-kit/)
 - [Хороший дизайн должен быть SOLID: TOP-5 архитектурных принципов](http://igor.quatrocode.com/2008/09/solid-top-5.html)
+
+### Snippets
+
+##### Property list reader
+```swift
+struct ProductIds {
+    static func getIdentifier(withKey key: String) -> String? {
+        if let url = Bundle.main.url(forResource: "Identifiers", withExtension: "plist") {
+            do {
+                let listData = try Data(contentsOf: url)
+                let myPlist = try PropertyListSerialization.propertyList(from: listData, options: [], format: nil)
+                guard let myDict = myPlist as? Dictionary<String, String>, let result = myDict[key]  else {
+                    return nil
+                }
+                return result
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
+        return nil
+    }
+}
+```
