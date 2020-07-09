@@ -24,7 +24,7 @@
 - [Немного практики функционального программирования в Swift для начинающих](https://habr.com/ru/post/440722/)
 - [Списки захвата в Swift: в чём разница между ссылками weak, strong и unowned?](https://habr.com/ru/post/444336/)
 - [Find memory leaks in iOS apps with XCode Instruments](https://www.surekhatech.com/blog/find-memory-leaks-in-ios-apps-with-xcode-instruments)
-- [//TODO: — Make your notes on Xcode stand out](https://medium.com/@cboynton/todo-make-your-notes-on-xcode-stand-out-5f5124ec064c)
+- [//TODO: — Make your notes on Xcode stand out](https://medium.com/@cboynton/todo-make-your-notes-on-xcode-stand-out-5f5124ec064c) - не нужно если есть SwiftLint
 - [Паттерны проектирования, взгляд iOS разработчика. Часть 0. Синглтон-Одиночка](https://habr.com/ru/post/320728/)
 - [Паттерны проектирования, взгляд iOS разработчика. Часть 1. Стратегия](https://habr.com/ru/post/321182/)
 - [Адекватное MVC для начинающих и не только](https://habr.com/ru/post/500870/)
@@ -40,6 +40,7 @@
 
 - [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui/) by Apple
 - [Адаптируем существующее бизнес-решение под SwiftUI. Часть 1](https://habr.com/ru/post/500194/)
+- [Адаптируем существующее бизнес-решение под SwiftUI. Часть 2](https://habr.com/ru/post/500386/)
 
 ### Development workflow
 
