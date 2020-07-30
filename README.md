@@ -31,22 +31,34 @@
 - [Настройка локализаций в Xcode 8 и Swift 3](https://tproger.ru/articles/localizations-in-swift/) - годно и для Swift 5 Xcode 11
 - [Internationalizing Your iOS App: Getting Started](https://www.raywenderlich.com/250-internationalizing-your-ios-app-getting-started)
 
-    #### Networking
+##### Networking
 
 - [Modern Networking in Swift 5 with URLSession, Combine and Codable](https://www.vadimbulavin.com/modern-networking-in-swift-5-with-urlsession-combine-framework-and-codable/)
 - [Network Manager + Postman](https://swiftbook.ru/post/tutorials/network-manager-postman/)
 
-    #### SwiftUI
+##### SwiftUI
 
 - [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui/) by Apple
 - [Адаптируем существующее бизнес-решение под SwiftUI. Часть 1](https://habr.com/ru/post/500194/)
 - [Адаптируем существующее бизнес-решение под SwiftUI. Часть 2](https://habr.com/ru/post/500386/)
+- [Адаптируем существующее бизнес-решение под SwiftUI. Часть 3. Работаем с архитектурой](https://habr.com/ru/post/500470/)
+
+##### SOLID
+
+- [Возвращаемся к SOLID](https://medium.com/nuances-of-programming/%D0%B2%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%89%D0%B0%D0%B5%D0%BC%D1%81%D1%8F-%D0%BA-solid-1c258669af21)
+- [SOLID в iOS разработке. Принцип единственной ответственности](https://medium.com/@zhukovios/solid-in-ios-srp-1f4d63641f10)
+- [SOLID в iOS разработке. Принцип открытости закрытости](https://medium.com/@zhukovios/solid-in-ios-ocp-890a5aedf2e5)
+- [Как работают принципы SOLID в Swift. Принцип единственной ответственности.](https://medium.com/@vladislav.mityuklyaev/%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B-solid-%D0%B2-swift-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF-%D0%B5%D0%B4%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8-f019d6daab2d) - то что выше, но другими словами
+- [Как работают принципы SOLID в Swift. Принцип открытости/закрытости.](https://medium.com/@vladislav.mityuklyaev/solid-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D1%81%D1%82%D0%B8-%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D1%81%D1%82%D0%B8-%D0%B2-swift-open-closed-principle-in-swift-fd7290fe7456)
+
+
 
 ### Development workflow
 
 - [GitHub Flow](https://habr.com/ru/post/346066/) - перевод [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
 - [Удачная модель ветвления для Git](https://habr.com/ru/post/106912/) - перевод [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) - статьи про Git flow (на мой взгляд не самой удачной модели ветвления)
 - [GitHub Flow: рабочий процесс Гитхаба](https://habr.com/ru/post/189046/) - Еще одна статья про GitHub Flow
+- [Что может помешать разработчику самостоятельно создать успешное приложение](https://medium.com/nuances-of-programming/%D1%87%D1%82%D0%BE-%D0%BC%D0%BE%D0%B6%D0%B5%D1%82-%D0%BF%D0%BE%D0%BC%D0%B5%D1%88%D0%B0%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D1%83-%D1%81%D0%B0%D0%BC%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-1330333c9da2)
 
 ### Job seeking
 
