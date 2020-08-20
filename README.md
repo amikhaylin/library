@@ -30,6 +30,7 @@
 - [Адекватное MVC для начинающих и не только](https://habr.com/ru/post/500870/)
 - [Настройка локализаций в Xcode 8 и Swift 3](https://tproger.ru/articles/localizations-in-swift/) - годно и для Swift 5 Xcode 11
 - [Internationalizing Your iOS App: Getting Started](https://www.raywenderlich.com/250-internationalizing-your-ios-app-getting-started)
+- [Design Pattern. Разбираем шаблоны iOS-разработки на реальных примерах.](https://swiftlab.ru/2019/01/12/design-pattern/)
 
 ##### Networking
 
