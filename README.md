@@ -35,6 +35,7 @@
 
 - [Modern Networking in Swift 5 with URLSession, Combine and Codable](https://www.vadimbulavin.com/modern-networking-in-swift-5-with-urlsession-combine-framework-and-codable/)
 - [Network Manager + Postman](https://swiftbook.ru/post/tutorials/network-manager-postman/)
+- [Implement a Networking Layer Using Combine in Swift 5](https://medium.com/better-programming/implement-a-networking-layer-using-combine-in-swift-5-8a83e3ac9bae)
 
 ##### SwiftUI
 
