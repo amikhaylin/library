@@ -53,6 +53,7 @@
 - [SOLID в iOS разработке. Принцип открытости закрытости](https://medium.com/@zhukovios/solid-in-ios-ocp-890a5aedf2e5)
 - [Как работают принципы SOLID в Swift. Принцип единственной ответственности.](https://medium.com/@vladislav.mityuklyaev/%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B-solid-%D0%B2-swift-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF-%D0%B5%D0%B4%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8-f019d6daab2d) - то что выше, но другими словами
 - [Как работают принципы SOLID в Swift. Принцип открытости/закрытости.](https://medium.com/@vladislav.mityuklyaev/solid-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D1%81%D1%82%D0%B8-%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D1%81%D1%82%D0%B8-%D0%B2-swift-open-closed-principle-in-swift-fd7290fe7456)
+- [Как работают принципы SOLID в Swift. Принцип подставновки Барбары Лисков](https://medium.com/@vladislav.mityuklyaev/%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B-solid-%D0%B2-swift-%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF-%D0%BF%D0%BE%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B1%D0%B0%D1%80%D0%B1%D0%B0%D1%80%D1%8B-%D0%BB%D0%B8%D1%81%D0%BA%D0%BE%D0%B2-a6284b529456)
 
 
 
