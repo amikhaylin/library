@@ -33,6 +33,7 @@
 - [Design Pattern. Разбираем шаблоны iOS-разработки на реальных примерах.](https://swiftlab.ru/2019/01/12/design-pattern/)
 - [Swift Singletons: A Design Pattern to Avoid (With Examples)](https://matteomanferdini.com/swift-singleton/)
 - [Основы Auto Layout — Концепция, строение, применение](https://habr.com/ru/post/312782/)
+- [How to set status bar style](https://sarunw.com/posts/how-to-set-status-bar-style/)
 
 ##### Networking
 
