@@ -90,6 +90,9 @@
 - [Полная экипировка iOS-разработчика: сервисы, инструменты, фреймворки, веб-сайты](https://tproger.ru/digest/ios-development-kit/)
 - [Хороший дизайн должен быть SOLID: TOP-5 архитектурных принципов](http://igor.quatrocode.com/2008/09/solid-top-5.html)
 
+### AppStore
+- [How to Submit Your App to the App Store in 2020](https://instabug.com/blog/how-to-submit-app-to-app-store/)
+
 ### Snippets
 
 ##### Property list reader
