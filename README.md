@@ -34,6 +34,7 @@
 - [Swift Singletons: A Design Pattern to Avoid (With Examples)](https://matteomanferdini.com/swift-singleton/)
 - [Основы Auto Layout — Концепция, строение, применение](https://habr.com/ru/post/312782/)
 - [How to set status bar style](https://sarunw.com/posts/how-to-set-status-bar-style/)
+- [Математические основы Auto Layout](https://habr.com/ru/company/oleg-bunin/blog/437584/)
 
 ##### Networking
 
