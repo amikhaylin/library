@@ -93,6 +93,7 @@
 
 ### AppStore
 - [How to Submit Your App to the App Store in 2020](https://instabug.com/blog/how-to-submit-app-to-app-store/)
+- [Apple App Store Guidelines: objectionable content, metadata, privacy and minimum functionality](https://splitmetrics.com/blog/apple-app-store-guidelines/)
 
 ### Snippets
 
