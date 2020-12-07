@@ -117,3 +117,26 @@ struct ProductIds {
     }
 }
 ```
+
+##### Operator overriding
+```swift
+postfix operator ++
+prefix operator ++
+
+extension Int {
+    static postfix func ++(lhs: inout Int) -> Int {
+        lhs += 1
+        return lhs
+    }
+    
+    static prefix func ++(rhs: inout Int) -> Int {
+        rhs += 1
+        return rhs
+    }
+}
+
+var t = 3
+t++
+
+print("Post \(t)")
+```
