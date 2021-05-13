@@ -8,7 +8,7 @@
 - [Development workflow](#development-workflow)
 - [Job seeking](#job-seeking)
 - [Learning paths](#learning-paths)
-- [Style Guldes](#style-guides)
+- [Style Guides](#style-guides)
 - [Misc](#misc)
 - [Snippets](#snippets)
 
@@ -97,46 +97,4 @@
 
 ### Snippets
 
-##### Property list reader
-```swift
-struct ProductIds {
-    static func getIdentifier(withKey key: String) -> String? {
-        if let url = Bundle.main.url(forResource: "Identifiers", withExtension: "plist") {
-            do {
-                let listData = try Data(contentsOf: url)
-                let myPlist = try PropertyListSerialization.propertyList(from: listData, options: [], format: nil)
-                guard let myDict = myPlist as? [String: String], let result = myDict[key]  else {
-                    return nil
-                }
-                return result
-            } catch {
-                print(error.localizedDescription)
-            }
-        }
-        return nil
-    }
-}
-```
-
-##### Operator overriding
-```swift
-postfix operator ++
-prefix operator ++
-
-extension Int {
-    static postfix func ++(lhs: inout Int) -> Int {
-        lhs += 1
-        return lhs
-    }
-    
-    static prefix func ++(rhs: inout Int) -> Int {
-        rhs += 1
-        return rhs
-    }
-}
-
-var t = 3
-t++
-
-print("Post \(t)")
-```
+Moved to snippetarium.md
