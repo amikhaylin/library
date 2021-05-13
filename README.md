@@ -97,4 +97,5 @@
 
 ### Snippets
 
-Moved to snippetarium.md
+- [Moved to snippetarium.md](https://github.com/amikhaylin/library/blob/master/snippetarium.md)
+
