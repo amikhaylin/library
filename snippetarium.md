@@ -4,6 +4,8 @@
 - [Increment](#increment)
 - [Binding preview](#binding-preview)
 - [FileManager with codable](#filemanager-with-codable)
+- [SwiftUI ImagePicker](#swiftui-imagepicker)
+- [TODO finder](#todo-finder)
 
 ### Property list reader
 ```swift
@@ -83,4 +85,49 @@ extension FileManager {
         return loaded
     }
 }
+```
+
+### SwiftUI ImagePicker
+```swift
+struct ImagePicker: UIViewControllerRepresentable {
+    @Binding var image: UIImage?
+    @Environment(\.presentationMode) var presentationMode
+    
+    func makeUIViewController(context: Context) -> UIImagePickerController {
+        let picker = UIImagePickerController()
+        picker.delegate = context.coordinator
+        return picker
+    }
+    
+    func updateUIViewController(_ uiViewController: UIImagePickerController, context: Context) {
+        
+    }
+
+    class Coordinator:NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+        var parent: ImagePicker
+        
+        init(_ parent: ImagePicker) {
+            self.parent = parent
+        }
+        
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+            if let uiImage = info[.originalImage] as? UIImage {
+                parent.image = uiImage
+            }
+            
+            parent.presentationMode.wrappedValue.dismiss()
+        }
+    }
+    
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+}
+```
+
+### TODO finder
+```sh
+TAGS="TODO:|FIXME:"
+ERRORTAG="ERROR:"
+find "${SRCROOT}" \( -name "*.h" -or -name "*.m" -or -name "*.swift" \) -print0 | xargs -0 egrep --with-filename --line-number --only-matching "($TAGS).*\$|($ERRORTAG).*\$" | perl -p -e "s/($TAGS)/ warning: \$1/" | perl -p -e "s/($ERRORTAG)/ error: \$1/"
 ```
