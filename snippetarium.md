@@ -6,6 +6,7 @@
 - [FileManager with codable](#filemanager-with-codable)
 - [SwiftUI ImagePicker](#swiftui-imagepicker)
 - [TODO finder](#todo-finder)
+- [Save and load image from Document Directory](#save-and-load-image-from-document-directory)
 
 ### Property list reader
 ```swift
@@ -130,4 +131,34 @@ struct ImagePicker: UIViewControllerRepresentable {
 TAGS="TODO:|FIXME:"
 ERRORTAG="ERROR:"
 find "${SRCROOT}" \( -name "*.h" -or -name "*.m" -or -name "*.swift" \) -print0 | xargs -0 egrep --with-filename --line-number --only-matching "($TAGS).*\$|($ERRORTAG).*\$" | perl -p -e "s/($TAGS)/ warning: \$1/" | perl -p -e "s/($ERRORTAG)/ error: \$1/"
+```
+
+### Save and load image from Document Directory
+```swift
+func getDocumentDirectory() -> URL {
+    let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+    return paths[0]
+}
+
+private func save(image: UIImage) -> String? {
+    let fileName = "FileName"
+    let fileURL = documentsUrl.appendingPathComponent(fileName)
+    if let imageData = image.jpegData(compressionQuality: 1.0) {
+       try? imageData.write(to: fileURL, options: .atomic)
+       return fileName // ----> Save fileName
+    }
+    print("Error saving image")
+    return nil
+}
+
+private func load(fileName: String) -> UIImage? {
+    let fileURL = documentsUrl.appendingPathComponent(fileName)
+    do {
+        let imageData = try Data(contentsOf: fileURL)
+        return UIImage(data: imageData)
+    } catch {
+        print("Error loading image : \(error)")
+    }
+    return nil
+}
 ```
