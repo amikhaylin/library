@@ -7,6 +7,7 @@
 - [SwiftUI ImagePicker](#swiftui-imagepicker)
 - [TODO finder](#todo-finder)
 - [Save and load image from Document Directory](#save-and-load-image-from-document-directory)
+- [How to reduce image size on scrolling](#how-to-reduce-image-size-on-scrolling)
 
 ### Property list reader
 ```swift
@@ -160,5 +161,71 @@ private func load(fileName: String) -> UIImage? {
         print("Error loading image : \(error)")
     }
     return nil
+}
+```
+
+### How to reduce image size on scrolling
+```swift
+private func getOffsetForImage(_ geo: GeometryProxy) -> CGFloat {
+    let offset = geo.frame(in: .global).minY - 100.0
+    
+    if offset < 0 {
+        return -offset
+    }
+    
+    return 0
+}
+
+private func getHeightForImage(_ geo: GeometryProxy, _ limit: CGFloat) -> CGFloat {
+    let offset = geo.frame(in: .global).minY - 100.0
+    let imageHeight = geo.size.height
+    print("offset: \(offset) limit: \(limit)  size: \(imageHeight + offset)")
+    
+    if offset < 0 {
+        if (imageHeight + offset) < limit {
+            return limit
+        } else {
+            return imageHeight + offset
+        }
+    }
+    
+    return imageHeight
+}
+
+private func getWidthForImage(_ geo: GeometryProxy, _ limit: CGFloat) -> CGFloat {
+    let offset = geo.frame(in: .global).minY - 100.0
+    let imageWidth = geo.size.height
+    
+    if offset < 0 {
+        if (imageWidth + offset) < limit {
+            return limit
+        } else {
+            return imageWidth + offset
+        }
+    }
+    
+    return imageWidth
+}
+
+GeometryReader { geometry in
+    ScrollView(.vertical) {
+        VStack {
+            GeometryReader { geo in
+                let limit = (geometry.size.width * 0.7) * 0.20
+                
+                Image(self.mission.image)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(maxWidth: self.getWidthForImage(geo, limit), maxHeight: self.getHeightForImage(geo, limit), alignment: .center)
+                    .clipped()
+                    .offset(x: 0, y: self.getOffsetForImage(geo))
+                    .padding(.leading, (geometry.size.width / 2 - self.getWidthForImage(geo, limit) / 2))
+            }
+            .frame(height: geometry.size.width * 0.7, alignment: .center)
+            .padding(.top)
+            
+            Spacer(minLength: 25)
+        }
+    }
 }
 ```
